@@ -82,7 +82,6 @@ class ServerHandler {
 				}
 			}
 			headers += "\r\n";
-			//System.out.println("++++++++++++++++++++++++" + headers);
 			return headers;
 		} else {
 			if (editedHeaders.getheadersString().toString() != null)
